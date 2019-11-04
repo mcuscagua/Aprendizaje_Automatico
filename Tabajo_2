@@ -1,19 +1,0 @@
-Se debe hacer 
-*Seleccionar el mismo problema que abordo en la practica pasada
-*Dividir el conjunto de muestra en: entrenamiento, validación y prueba.
-*Entrenar (ver 2.1) el modelo con los datos en altas dimensiones (espacio original)
-      - m entradas, n salidas y N cantidad de instancias
-      - conguración perceptron multicapa con m entradas, n salidas.
-      - entrenamiento combinatoria con L capas ocultas de 1 a 1 hasta 10, neuronas en capas ocultas de 1 a 10
-      - No cambiar tamaño de la muestra ni modicar los parámetros de los regularizadores
-      - Variar tasa de aprendizaje 0.2, 0.5 y 0.9.
-      - criterio de parada de error tolerancia 1e-2 y numero máximo de épocas de entrenamiento de 50
-      - Debe observar las curvas de entrenamiento de cada una de las redes y además evaluar el desempeño de las mismas usando la 
-        sensitividad, especicidad y capacidad de predicción en una curva ROC.
-*Entrenar (ver 2.1) el modelo con los datos en dimensiones reducidas (luego del embebimiento)
-*Realizar la comparación del modelo de dimensiones completas contra el modelo de dimensiones reducidas
-*Entrenar la red profunda InceptionV3 sobre Imagenet (ver 2.2)
- https://www.tensorflow.org/api_docs/python/tf/data/Dataset?hl=es-419
-http://www.image-net.org/papers/imagenet_cvpr09.pdf
-https://github.com/tensorflow/models/tree/master/research/inception
-https://github.com/tensorflow/models/tree/master/research/inception/inception
